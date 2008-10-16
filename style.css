@@ -4,6 +4,10 @@ body {
   font-size: 120%;
 }
 
+div#content {
+  width: 800px;
+}
+
 strong {
   font-size: 125%;
 }
