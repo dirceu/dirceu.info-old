@@ -1,0 +1,20 @@
+body {
+  background: #fff;
+  color: #666;
+  font-size: 120%;
+}
+
+strong {
+  font-size: 125%;
+}
+
+a, a:visited {
+  background: #fff;
+  color: #0000ff;
+}
+
+a:hover {
+  background: #0000ff;
+  color: #fff;
+  font-weight:bold;
+}
