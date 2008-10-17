@@ -42,6 +42,7 @@
 		<ul>
 <li class="<?php if (((is_home()) && !(is_paged())) or (is_archive()) or (is_single()) or (is_paged()) or (is_search())) { ?>current_page_item<?php } else { ?>page_item<?php } ?>"><a href="<?php echo get_settings('home'); ?>">Home<?php echo $langblog;?></a></li>
 <?php wp_list_pages('sort_column=menu_order&depth=1&title_li='); ?>
+<li class="page_item" title="About"><a href='http://dirceu.info' title='About'>About</a></li>
 <li class="rsslink"><a href="http://feeds.feedburner.com/dirceuinfo">{RSS}</a></li>
 <li class="date"><script src="<?php bloginfo('template_url'); ?>/date.js" type="text/javascript"></script></li>
 		</ul>
