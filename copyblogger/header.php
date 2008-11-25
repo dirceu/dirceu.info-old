@@ -7,19 +7,11 @@
 	<title><?php if (is_home()) { bloginfo('description'); } else { wp_title('',true); } ?> &#8212; <?php bloginfo('name'); ?></title>
 
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
-        <meta name="resource-type" content="document" />
-        <meta name="classification" content="Internet" />
         <meta name="author" content="Dirceu Pereira Tiegs" />
         <meta name="description" content="Dirceu Pereira Tiegs' personal website." />
         <meta name="keywords" content="python, zope, plone, django, ruby, rails, development, git, productivity, web, agile" />
-        <meta name="robots" content="ALL" />
-        <meta name="rating" content="General" />
-        <meta name="language" content="pt-br" />
-        <meta name="distribution" content="Global" />
-        <meta name="doc-class" content="Completed" />
-        <meta name="revisit-after" content="1" />
-        <meta name="ICBM" content="-28.682757,-49.392128" />
-        <meta name="DC.title" content="dirceu.info" />
+        <meta name="robots" content="all" />
+        <meta name="language" content="en,pt" />        <meta name="DC.title" content="dirceu.info" />
 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/custom.css" type="text/css" media="screen" />
