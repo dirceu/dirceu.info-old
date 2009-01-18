@@ -1,0 +1,494 @@
+/*
+Theme Name: Linquist
+Theme URI: http://www.redworks.sk/linquist
+Description: A Wordpress portfolio theme.
+Version: 1.0
+Author: Redworks
+Author URI: http://www.redworks.sk/
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: #f4f6da url('images/background.png') repeat-x top;
+	color: #363636;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.8em;	
+}
+
+#wrapper {
+	text-align: left;
+	width: 830px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a {
+	color: #565656;
+}
+
+a:hover {
+	color: #565656;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*------------- HEADER -------------*/
+
+img {
+	border: 0px;
+}
+
+#logo {
+	float: left;
+	padding: 10px 0 45px 0;
+	_padding: 30px 0 35px 0;
+}
+
+#style {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
+h1, h1 a {
+	text-decoration: none;
+	color: #e1e2c7;
+	font-size: 2.6em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 a:hover {
+	color: #fff;
+}
+
+h2{
+	color: #777261;
+	font-size: 2em;
+	font-weight: normal;
+	margin:0px;
+	padding: 0px;
+}
+
+#logo h2 {
+	margin: -15px 0 0 5px;
+}
+
+
+
+
+
+
+
+/*------------- NAVIGATION -------------*/
+
+
+/*------------- RIGHT -------------*/
+
+#nav {
+	background: #534c40;
+	padding: 6px 10px 8px 10px;
+	float: right;
+	margin-top: 50px;
+}
+
+#nav  ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#nav li a {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #f4f6da;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin: 0 10px 0 10px;
+}
+
+#nav li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+#nav .home {
+	margin-right:5px;
+}
+
+
+
+
+
+/*------------- BELOW -------------*/
+
+#nav2 {
+	background: #534c40;
+	padding: 6px 10px 8px 10px;
+	float: left;
+	text-align: left;
+	margin: -10px 0 30px 0;
+	clear: both;
+}
+
+#nav2  ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav2 li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#nav2 li a {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #f4f6da;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin: 0 10px 0 10px;
+}
+
+#nav2 li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+#nav2 .home {
+	margin-right:5px;
+}
+
+
+
+/*------------- BELOW2 -------------*/
+
+#nav3 {
+	padding: 6px 0 8px 0;
+	float: left;
+	text-align: left;
+	margin: -10px 0 30px 0;
+	clear: both;
+	border-bottom: 1px solid #595348;
+	border-top: 1px solid #595348;
+}
+
+#nav3  ul {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#nav3 li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	
+}
+
+#nav3 li a {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #595348;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	margin: 0 10px 0 10px;
+	font-weight: bold;
+}
+
+#nav3 li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+#nav3 .home {
+	margin-right:5px;
+}
+
+
+
+
+/*------------- CONTENT -------------*/
+
+#content {
+	margin: 0;
+	margin-bottom: 30px;	
+	line-height: 21px;
+}
+
+
+.left {
+	float: left;
+}
+
+.left img {
+	width: 500px;
+	width: expression(this.width > 500 ? 500: true);
+	height: auto;
+}
+
+.right {
+	width: 300px;
+	float: right;
+	line-height: 21px;
+	_margin-top: 5px;
+}
+
+.pageleft {
+	width: 400px;
+	float: left;
+	line-height: 23px;
+}
+
+.pageright {
+	width: 400px;
+	float: right;
+	line-height: 23px;
+}
+
+
+
+.post {
+	padding-bottom: 30px;
+	float: left;
+	width: 830px;
+	font-family: Georgia, Arial, 'Helvetica', sans-serif;
+	
+}
+
+.post li {
+	list-style: none;
+}
+
+
+
+.alignleft {
+	margin: 5px 10px 5px 0;
+}
+
+.alignright  {
+	margin: 5px 0 5px 10px;
+}
+
+
+#content h2 {
+	font-size: 2.1em;
+	color: #565656;
+	line-height: 32px;
+}
+
+#content h2 a {
+	text-decoration: none;
+	color: #565656;
+}
+
+#content h2 a:hover {
+	color: #000;
+}
+
+
+
+#content img {
+	border: 5px solid #dadbbe;
+}
+
+
+
+.meta a, .meta {
+	color: #a2987b;
+	text-decoration: none;
+	margin: 0 0 10px 0;
+}
+
+.meta a:hover  {
+	color: #555;
+	text-decoration: underline;
+}
+
+
+#browse {
+	width: 830px;
+	margin: 10px 0 20px 0;
+}
+
+div.alignleft,  div.alignright{
+	display: block;
+	width: 40%;
+	padding: 3px 0px 3px 0px;
+}
+
+div.alignleft {
+	float: left;
+	text-align: left;
+}
+
+div.alignright {
+	float: right;
+	text-align: right;
+}
+div.alignleft a, div.alignright a {
+	font-size: 0.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	
+}
+
+div.alignleft a {
+	padding: 3px 7px 3px 15px;
+	background: #c0c2a4 url('images/arrow-left-off.png') top left no-repeat;
+}
+
+div.alignleft a:hover {
+	background: #000000 url('images/arrow-left-on.png') top left no-repeat;
+	color: #fff;
+}
+
+div.alignright a {
+	padding: 3px 15px 3px 7px;
+	background: #c0c2a4 url('images/arrow-right-off.png') top right no-repeat;
+}
+
+div.alignright a:hover {
+	background: #000000 url('images/arrow-right-on.png') top right no-repeat;
+	color: #fff;
+}
+
+
+
+
+
+/*------------- COMMENTS -------------*/
+
+#comments , #commentform{
+	width:500px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	clear: both;
+}
+
+#comments h3 {
+	font-size: 1.7em;
+	color: #565656;	
+	margin: 30px 0 10px 0;
+}
+
+
+div.avatar {
+	width: 50px;
+	float: left;
+}
+
+div.comment {
+	width: 450px;
+	float: left;
+	margin-bottom: 40px;
+}
+.comment span{
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+ul.commentlist {
+	padding: 0;
+	margin: 0;
+	float: left;
+	
+}
+
+.commentlist li {
+	padding: 10px 0 0;
+	list-style: none;
+}
+
+form textarea {
+	margin: 5px 0 0 0;
+	width: 450px;
+	padding: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+form input {
+	margin: 5px 5px 0 0;
+	padding-left: 5px;
+}
+
+
+
+/*------------- FOOTER -------------*/
+
+#footer {
+	width: 830px;
+	margin: 0 auto;
+	display: block;
+	float: left;
+	margin: 60px 0 50px 0;
+	color: #333;
+}
+
+#copyright {
+	float: left;
+}
+
+
+#copyright a:hover {
+	color: #555;
+	text-decoration: underline;
+}
+
+#icons {
+	text-transform: uppercase;
+	float: right;
+	font-size: 0.9em;
+}
+
+#icons a:hover {
+	color: #555;
+}
+
+#icons img {
+	float: left;
+}
+
+
+#footer a {
+	color: #8c8268;
+	text-decoration: none;
+}
+
+
+#footer img {
+	border: none;
+	margin: 0 5px 0 0;
+}
