@@ -2,6 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+
+        <meta name="author" content="Dirceu Pereira Tiegs" />
+        <meta name="description" content="Dirceu Pereira Tiegs' personal website." />
+
+        <meta name="keywords" content="python, zope, plone, django, ruby, rails, development, git, productivity, web, agile" />
+
+        <meta name="robots" content="all" />
+        <meta name="language" content="en,pt" />
+        <meta name="DC.title" content="dirceu.info" />
+
 <title><?php bloginfo('name'); ?> &middot; <?php bloginfo('description'); ?></title>
 <?php if (function_exists('linquist_colors')) {linquist_colors();}?>
 <?php if (function_exists('linquist_lightbox')) {linquist_lightbox();}?>

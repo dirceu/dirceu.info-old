@@ -1,3 +1,6 @@
+
+
+
 <?php
 /*
 File Name: Wordpress Theme Toolkit
@@ -63,6 +66,9 @@ function linquist_navigation() {
 		echo '">';
 		print linquist_homelabel();
 		echo '</a></li>';
+                echo "<li><a href='http://dirceu.info/blog' rel='me'>Blog</a></li>";
+                echo "<li><a href='http://dirceu.emurse.com' rel='me'>Resum&eacute;</a></li>";
+                echo "<li><a href='http://github.com/dirceu' rel='me'>Code</a></li>";
 		print wp_list_pages('title_li=&depth1=&sort_column=menu_order');
 		echo '</ul></div>';
 	}
