@@ -52,10 +52,10 @@
 
 <ul id="navigation">
 	<li class="page_item <?php if(is_home()) { echo 'current_page_item'; } ?>"><a href="<?php bloginfo('home'); ?>">Home</a></li>
-	<li class="page_item"><a href="http://github.com/dirceu">Code</a></li>
-	<li class="page_item"><a href="http://twitter.com/dirceu">Twitter</a></li>
-	<li class="page_item"><a href="http://dirceu.tumblr.com">Tumblelog</a></li>
-	<li class="page_item"><a href="http://dirceu.emurse.com">Resum&eacute;</a></li>
+	<li class="page_item"><a href="http://github.com/dirceu" rel="me">Code</a></li>
+	<li class="page_item"><a href="http://twitter.com/dirceu" rel="me">Twitter</a></li>
+	<li class="page_item"><a href="http://tumblelog.dirceu.info" rel="me">Tumblelog</a></li>
+	<li class="page_item"><a href="http://dirceu.emurse.com" rel="me">Resum&eacute;</a></li>
 	<?php wp_list_pages('title_li=' ); ?>
 </ul>
 

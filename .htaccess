@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule   ^$ /blog/ [L]
+RewriteRule   ^$ /blog/about-2/ [L]
