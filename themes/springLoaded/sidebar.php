@@ -1,7 +1,7 @@
 <div id="sidebar">
 
 <div class="side-widget side-rss">
-	<p><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/sub-rss.png" alt="Subscribe to our RSS Feed" /></a></p>
+	<p><a href="http://feeds.feedburner.com/dirceuinfo"><img src="<?php bloginfo('template_url'); ?>/images/sub-rss.png" alt="Subscribe to our RSS Feed" /></a></p>
 </div>
 
 <?php if (!function_exists('dynamic_sidebar')
@@ -17,6 +17,7 @@
 	</ul>
 </div>
 
+<!--
 <div class="side-widget side-links">
 	<h3>Links</h3>
 	<ul>
@@ -29,7 +30,7 @@
 	<a href="#">Tag 1</a>
 	<a href="#">Tag 2 is huge, and I mean huge!</a> <a href="#">And here's tag 3 too.</a>
 </div>
-
+-->
 <?php endif; ?>
 
 </div><!-- /sidebar -->
